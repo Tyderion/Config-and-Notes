@@ -137,6 +137,13 @@ echo "type rvm | head -n 1"
 echo "if answer is: rvm is a function, continue, else do a rvm reinstall 1.9.3"
 
 
+echo "Installing NodeJS"
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs npm
+
+
 #install dependencies
 
 #rvm reinstall 1.9.3 #???
