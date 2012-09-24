@@ -117,7 +117,7 @@ function sublime
 }
 function railss
 {
-command rvmsudo rails s
+command rvmsudo rails s -p 80
 }
 
 source ~/.local/bin/bashmarks.sh
@@ -128,7 +128,11 @@ cd Documents
 git clone git://github.com/huyng/bashmarks.git
 cd bashmarks && make install
 
-
+echo "Installing NodeJS"
+sudo apt-get install python-software-properties
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs npm
 
 curl -L https://get.rvm.io | bash -s stable --rails
 #"send q"
@@ -137,11 +141,7 @@ echo "type rvm | head -n 1"
 echo "if answer is: rvm is a function, continue, else do a rvm reinstall 1.9.3"
 
 
-echo "Installing NodeJS"
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs npm
+
 
 
 #install dependencies
