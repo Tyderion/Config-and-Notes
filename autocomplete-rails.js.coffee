@@ -3,6 +3,7 @@ $ ->
     focus: ->
       $(this).autocomplete(
         source: (request, response) ->
+          #console.log "autocomplete_#{$(this.element).attr("id").substring(13)}"
           response $.ui.autocomplete.filter( gon["autocomplete_#{$(this.element).attr("id").substring(13)}"], request.term)
         autoFocus: true
         minLength: 0
@@ -12,8 +13,7 @@ $ ->
           $("input[id$='#{$(this).attr("id").substring(13)}_id']", $(this).parents('fieldset') ).val ui.item["value"]
         focus: (event, ui) ->
           event.preventDefault()
-          $('#autocomplete').val ui.item["label"]
-          $("input[id$='#{$(this).attr("id").substring(13)}_id']", $(this).parents('fieldset') ).val ui.item["value"]
+          $("input[id$='#{$(this).attr("id").substring(13)}_id']", $(this).parents('fieldset') ).val ""
         ).focus ->
           if @value is ""
             $(this).autocomplete "search", ""
