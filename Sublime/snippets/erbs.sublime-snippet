@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<% $1 %>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>e</tabTrigger>
+	<scope>text.html.ruby, text.haml</scope>
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

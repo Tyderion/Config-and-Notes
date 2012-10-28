@@ -1,0 +1,21 @@
+Link; Folder; Name; Description
+git://github.com/SublimeText/AAAPackageDev.git; default; AAAPackageDev; Syntax-Highlighting for Setting Files etc. Tools to ease the creation of snippets, syntax definitions, etc. for Sublime Text.
+git://github.com/facelessuser/BracketHighlighter.git; default; BracketHighlighter; Bracket and tag highlighter for Sublime Text 2
+git://github.com/Xavura/CoffeeScript-Sublime-Plugin.git; CoffeeScript; CoffeeScript; Syntax highlighting and checking, commands, shortcuts, snippets, compilation and more.
+git://github.com/spape/SublimeFileDiffs.git; FileDiffs; FileDiffs; Diff Shows diffs - also in an external diff tool - between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes.
+git://github.com/ehamiter/ST2-GitHubinator.git; default; GitHubinator; See selected Lines on Git.
+git://github.com/cyphactor/sublime_guard.git; Guard; Guard(Rails-Tests); Sublime Text 2 Guard Plugin - helps create a smoother development workflow.
+git://github.com/danro/LESS-sublime.git; LESS; LESS; Syntax highlighting for Sublime Text 2.
+git://github.com/SublimeText/RSpec.git; default; RSPEC(Rails-Tests); Sublime Text 2 plugin for RSpec BDD Framework
+git://github.com/alexpls/Rails-Latest-Migration.git; Rails Latest Migration; Latest Migration (Rails); Opens the latest Rails migration in Sublime Text 2
+git://github.com/talltroym/sublime-theme-railscasts.git; RailsCasts Colour Scheme; RailsCasts Theme; RailsCasts Colour Scheme
+git://github.com/maltize/sublime-text-2-ruby-tests.git; RubyTest; Ruby-Test; Sublime Text 2 plugin for running ruby tests! (Unit, RSpec, Cucumber).
+git://github.com/nathos/sass-textmate-bundle.git; SASS; SASS; Sass support for TextMate & Sublime Text 2.
+git://github.com/titoBouzout/SideBarEnhancements.git; default; SideBarEnhancements; Enhancements to Sublime Text sidebar. Files and folders.
+git://github.com/SublimeText/SideBarGit.git; default; SideBarGit; Add git commands to sidebar. Textual port of komodin extension for sublime text.
+git://github.com/noklesta/SublimeRailsNav.git; default; Rails-Navigation; Sublime Text 2 plugin for navigating Ruby on Rails applications
+git://github.com/victorporof/Sublime-JSHint.git; JSHint; Sublime-JSHint; Javascript Lint for Sublime Text editor via node.js (JSHint build system and python plugin).
+git://github.com/SublimeLinter/SublimeLinter.git; default; SublimeLinter; Inline lint highlighting for the Sublime Text 2 editor.
+git://github.com/robcowie/SublimeTODO.git; default; SublimeTODO; Extract TODO-type comments from open files and project folders.
+git://github.com/SublimeText/WordHighlight.git; default; Word-Highlight; Highlight all copies of the currently selected word.
+git://github.com/sublimator/ZenCoding.git; default; ZenCoding; Fast HTML/CSS Coding.

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+    <% if $1 %>
+    $2
+    <% else %>
+    $3
+    <% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ife</tabTrigger>
+ <scope>text.html.ruby, text.haml</scope>
+  <!-- <scope>source.python</scope> -->
+</snippet>

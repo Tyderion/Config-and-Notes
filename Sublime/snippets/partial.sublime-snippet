@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[<%= render :partial => $1 %>]]></content>
+    <tabTrigger>part</tabTrigger>
+    <scope>text.html.ruby</scope>
+    <description>partial</description>
+</snippet>
