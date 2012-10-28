@@ -1,0 +1,561 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"su",
+				"subl_packages_path"
+			],
+			[
+				"file",
+				"file_list"
+			],
+			[
+				"them",
+				"theme_list"
+			],
+			[
+				"gra",
+				"grayDarker"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Sublime/sublime-packages-linux.sh",
+			"settings":
+			{
+				"buffer_size": 1665,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"packag in",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/archie/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/archie/Documents/Programming/My-Bash-Tweaks/Sublime/linux/Preferences.sublime-settings",
+		"/home/archie/Documents/Programming/My-Bash-Tweaks/Sublime/windows/Preferences.sublime-settings",
+		"/home/archie/Documents/Programming/My-Bash-Tweaks/Sublime/preferences/Preferences.sublime-settings",
+		"/home/archie/Documents/Programming/My-Bash-Tweaks/Sublime/test.awk",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/anytime.js",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/myjavascript.js",
+		"/home/archie/Documents/Programming/zeiterfassung/config/locales/de.yml",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/test.js",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/application.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/application.js",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/work_units/new.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/tasks/new.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/projects/_add_user_to_project.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/theme_GreenGoblin.less",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/myjavascript.js.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/i18n/translations.js",
+		"/home/archie/Documents/Programming/zeiterfassung/config/locales/en.yml",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/bootstrap.js.coffee",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/_project_details.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/work_units/_form.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/Gemfile.orig",
+		"/home/archie/Documents/Programming/zeiterfassung/Gemfile",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/bootstrap_and_overrides.css.less",
+		"/home/archie/Documents/Programming/zeiterfassung/config/i18n-js.yml",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/_footer.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/application_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/javascripts/i18n/translations_en.js",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/application.css.scss",
+		"/home/archie/Documents/Programming/zeiterfassung/config/config.yml",
+		"/home/archie/Documents/Programming/zeiterfassung/config/application.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/_header.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/_themechooser.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/work_units_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/config/routes.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/theme_none.less",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/bootstrap_and_overrides.less",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/theme_green.less",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/theme_redhot.less",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/projects/show.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/project.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/projects/_form.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/tasks/_form.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/assets/stylesheets/my_formtastic_changes.css.scss",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/projects/_show.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/tasks_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/doc/app/ApplicationController.html",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/projects/_projects.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/application.html.erb.REMOTE.3856.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/application.html.erb.orig",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/work_units/_list_workunits.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/helpers/application_helper.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/doc/app/ApplicationHelper.html",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/work_units/index.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/zeiterfassung.sublime-project",
+		"/home/archie/Documents/Programming/zeiterfassung/zeiterfassung.sublime-workspace",
+		"/home/archie/.config/sublime-text-2/Packages/User/HTML (Rails).sublime-settings",
+		"/home/archie/.config/sublime-text-2/Packages/User/render.sublime-snippet",
+		"/home/archie/.config/sublime-text-2/Packages/User/end.sublime-snippet",
+		"/home/archie/.config/sublime-text-2/Packages/User/ife_erb.sublime-snippet",
+		"/home/archie/.config/sublime-text-2/Packages/User/erb_in.sublime-snippet",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/tasks/index.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/user.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/projects_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/project_admins_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/index.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/_adminheader.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/users.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/admins/projects.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/views/layouts/_bodytag.html.erb",
+		"/home/archie/Documents/Programming/zeiterfassung/lib/tasks/sample_data.rake",
+		"/home/archie/Documents/Programming/zeiterfassung/test-file.txt",
+		"/home/archie/Documents/Programming/zeiterfassung/app/helpers/admins_helper.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/controllers/admins_controller.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/helpers/project_admins_helper.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/app/models/project.rb",
+		"/home/archie/Documents/Programming/zeiterfassung/lib/forgery/forgeries/project_forgery.rb",
+		"/home/archie/.config/sublime-text-2/Packages/User/defc.sublime-snippet",
+		"/home/archie/.config/sublime-text-2/Packages/User/rdoc.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"read",
+			"subl_path",
+			"test",
+			"INSTALLED",
+			"rememb",
+			"addproject",
+			"task.new",
+			"Edit Project",
+			"label:",
+			"Zeiteinheit",
+			"\n",
+			"width",
+			"session",
+			"projects",
+			"project",
+			"button",
+			"form-actions",
+			"panel2",
+			"footer",
+			"work_units",
+			"wrapper",
+			"{\n",
+			"form-actions",
+			"button",
+			"projects",
+			"Logged_in",
+			"work_units",
+			"flash_notice",
+			".button",
+			"users",
+			"inden",
+			"#new",
+			"new_pro",
+			"#new",
+			".form",
+			"button",
+			"javascript_include_tag",
+			"overview",
+			"format_year",
+			"format_time",
+			"format_year",
+			"w",
+			"addproject",
+			"test'",
+			"test",
+			" list ",
+			"list",
+			"edit_task_path",
+			"project",
+			"get_project_admin_instance"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Sublime/sublime-packages-linux.sh",
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_incomplete",
+								"bh_incomplete_open",
+								"bh_incomplete_close",
+								"bh_single_quote",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"bh_registered_brackets":
+							[
+								"curly",
+								"round",
+								"square",
+								"single_quote",
+								"double_quote"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"anyt",
+				"app/assets/javascripts/anytime.js"
+			],
+			[
+				"myja",
+				"app/assets/javascripts/myjavascript.js"
+			],
+			[
+				"orig",
+				"Gemfile.orig"
+			],
+			[
+				"appcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"ge",
+				"Gemfile"
+			],
+			[
+				"less",
+				"app/assets/stylesheets/bootstrap_and_overrides.css.less"
+			],
+			[
+				"my",
+				"app/assets/stylesheets/my_formtastic_changes.css.scss"
+			],
+			[
+				"apcont",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"ap",
+				"doc/app/ApplicationController.html"
+			],
+			[
+				"i1",
+				"config/i18n-js.yml"
+			],
+			[
+				"18",
+				"config/i18n-js.yml"
+			],
+			[
+				"eny",
+				"config/locales/en.yml"
+			],
+			[
+				"aperb",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"de.y",
+				"config/locales/de.yml"
+			],
+			[
+				"en.yl",
+				"config/locales/en.yml"
+			],
+			[
+				"aplijs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"sampl",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"sample",
+				"lib/tasks/sample_data.rake"
+			],
+			[
+				"forg",
+				"lib/forgery/forgeries/project_forgery.rb"
+			],
+			[
+				"enym",
+				"config/locales/en.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/archie/Documents/zeiterfassung.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}

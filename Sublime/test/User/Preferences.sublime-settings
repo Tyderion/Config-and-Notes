@@ -1,4 +1,5 @@
-    "color_scheme": "Packages/RailsCasts/RailsCastsColorScheme.tmTheme"
+{
+    "color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme"
   ,	"detect_indentation": false
   ,	"ensure_newline_at_eof_on_save": true
   ,	"save_on_focus_lost": true
@@ -18,6 +19,7 @@
       "HACK": "HACK[\\s]*?:+(?P<hack>.*)$"
     }
   }
+  ,	"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme"
   ,	"detect_indentation": false
   ,	"ensure_newline_at_eof_on_save": true
   ,	"save_on_focus_lost": true
@@ -32,3 +34,8 @@
   ,	"trim_trailing_white_space_on_save": true
   ,	"word_wrap": true
   ,	"mouse_wheel_switches_tabs": true
+    , "font_options": [""]
+    , "font_size":13
+    , "line_padding_bottom": 3
+    , "line_padding_top": 3
+}

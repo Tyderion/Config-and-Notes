@@ -11,7 +11,7 @@ git://github.com/alexpls/Rails-Latest-Migration.git; Rails Latest Migration; Lat
 git://github.com/talltroym/sublime-theme-railscasts.git; RailsCasts Colour Scheme; RailsCasts Theme; RailsCasts Colour Scheme
 git://github.com/maltize/sublime-text-2-ruby-tests.git; RubyTest; Ruby-Test; Sublime Text 2 plugin for running ruby tests! (Unit, RSpec, Cucumber).
 git://github.com/nathos/sass-textmate-bundle.git; SASS; SASS; Sass support for TextMate & Sublime Text 2.
-git://github.com/titoBouzout/SideBarEnhancements.git; default; SideBarEnhancements; Enhancements to Sublime Text sidebar. Files and folders.
+git@github.com:Tyderion/SideBarEnhancements.git; default; SideBarEnhancements; Enhancements to Sublime Text sidebar. Files and folders.
 git://github.com/SublimeText/SideBarGit.git; default; SideBarGit; Add git commands to sidebar. Textual port of komodin extension for sublime text.
 git://github.com/noklesta/SublimeRailsNav.git; default; Rails-Navigation; Sublime Text 2 plugin for navigating Ruby on Rails applications
 git://github.com/victorporof/Sublime-JSHint.git; JSHint; Sublime-JSHint; Javascript Lint for Sublime Text editor via node.js (JSHint build system and python plugin).
