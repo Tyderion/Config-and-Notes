@@ -44,7 +44,6 @@ function create_settings {
   cat linux/Preferences.sublime-settings >> tmp_prefs.sublime-settings
   echo -e "}" >> tmp_prefs.sublime-settings
   cat tmp_prefs.sublime-settings > $subl_packages_path"/User/Preferences.sublime-settings"
-  exit
   rm tmp_prefs.sublime-settings
 }
 
