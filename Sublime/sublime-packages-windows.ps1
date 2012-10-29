@@ -13,8 +13,13 @@ Function Create-Settings {
   Remove-Item "tmp_prefs.sublime-settings"
 }
 
+Function Get-Value ( $file , $name ) {
+  Get-Content $file | %{ $a = $_.Split(':'); if ($a[0] -eq $name) { Write-Output $a[1]; } }
+}
+
 # Script Start
-Write-Output "This is a script to install some sublime packages, snippets and settings."
+Get-Value "messages_en" "welcome_message" #"This is a script to install some sublime packages, snippets and settings."
+Get-Value "messages_en" "package_question"
 $continue =  Read-Host "Do you want to install the settings file? [Yes to continue, no to abort]"
 if ($continue -ne "Yes" -and $continue -ne "Y" -and $continue-ne "y") {
   Write-Output "Aborting"

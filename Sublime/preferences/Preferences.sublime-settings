@@ -22,7 +22,6 @@
   ,	"ensure_newline_at_eof_on_save": true
   ,	"save_on_focus_lost": true
   ,	"font_face": "Inconsolata"
-  ,	"font_size": 13
   ,	"ignored_packages": [ "Vintage" ]
   ,	"match_brackets_angle": true
   ,	"rulers": [80, 100]

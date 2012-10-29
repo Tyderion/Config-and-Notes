@@ -47,7 +47,13 @@ function create_settings {
   rm tmp_prefs.sublime-settings
 }
 
-echo "This Programm will install a few Sublime plugins and some settings, all customizable via text files."
+function get_value {
+  cat $1 | awk -v name=$2 -F ":" '{ if ($1 == name) print $2 }'
+}
+
+
+
+echo `get_value  "messages_en" "welcome_message"` #"This Programm will install a few Sublime plugins and some settings, allcustomizable via text files."
 read -e -p "Sublime Package Folder: $subl_packages_default_path ?" subl_packages_path </dev/tty
 if ["$subl_packages_path" == ""]; then
   subl_packages_path=$subl_packages_default_path
