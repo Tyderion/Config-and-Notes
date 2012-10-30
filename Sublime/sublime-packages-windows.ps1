@@ -1,6 +1,6 @@
 # Script Variables
 $default_sublime_packages_path = "W:\LiberKey\MyApps\Sublime Text 2\Data\Packages"
-
+# http://stackoverflow.com/questions/10484192/powershell-browse-for-folder-a-better-way-to-do-this
 #Functions
 Function Create-Settings {
   Write-Output "{" > "tmp_prefs.sublime-settings"
