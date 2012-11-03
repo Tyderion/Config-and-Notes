@@ -18,7 +18,6 @@
       "HACK": "HACK[\\s]*?:+(?P<hack>.*)$"
     }
   }
-  ,	"detect_indentation": false
   ,	"ensure_newline_at_eof_on_save": true
   ,	"save_on_focus_lost": true
   ,	"font_face": "Inconsolata"
