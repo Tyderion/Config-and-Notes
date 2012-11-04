@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get -y install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion pkg-config curl guake 
+sudo apt-get -y install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion pkg-config curl guake
 
 
 wget "http://c758482.r82.cf2.rackcdn.com/Sublime Text 2.0.1 x64.tar.bz2"
@@ -32,7 +32,7 @@ sublime
 #make bash changes
 sudo cat my_inputrc_changes.txt >> /etc/inputrc
 
-cat << 'myinputrc' | sudo tee -a /etc/inputrc 
+cat << 'myinputrc' | sudo tee -a /etc/inputrc
 
 set match-hidden-files off
 set visible-stats on
@@ -47,6 +47,9 @@ set completion-ignore-case on
 
 set show-all-if-ambiguous on
 "\M-d": menu-complete
+
+#Delete word to the right with ctrl-delete
+"\e[3;5~": kill-word
 
 myinputrc
 
