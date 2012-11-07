@@ -19,3 +19,5 @@ git://github.com/SublimeLinter/SublimeLinter.git; default; SublimeLinter; Inline
 git://github.com/robcowie/SublimeTODO.git; default; SublimeTODO; Extract TODO-type comments from open files and project folders.
 git://github.com/SublimeText/WordHighlight.git; default; Word-Highlight; Highlight all copies of the currently selected word.
 git://github.com/sublimator/ZenCoding.git; default; ZenCoding; Fast HTML/CSS Coding.
+git://github.com/paccator/GotoRecent.git, default, GotoRecent; Opens a recents panel
+
