@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+# Todo: ${1:function}: ${2:Put the logic into model/class?}
+$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>todo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+ <scope>source.ruby</scope>
+</snippet>
