@@ -2,8 +2,6 @@
 	<content><![CDATA[
 #
 #
-# * *@-Variables*   :
-#   - +$1+ -> $2
 # * *Args*    :
 #   - +$3+ -> $4
 # * *Returns* :

@@ -1,0 +1,16 @@
+set match-hidden-files off
+set visible-stats on
+
+#history auto-complete with UP-Arrow
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\e[C": forward-char
+"\e[D": backward-char
+
+set completion-ignore-case on
+
+set show-all-if-ambiguous on
+"\M-d": menu-complete
+
+#Delete word to the right with ctrl-delete
+"\e[3;5~": kill-word

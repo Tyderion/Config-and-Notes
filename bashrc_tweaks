@@ -1,0 +1,61 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#see: http://aplawrence.com/Linux/bash_history.html
+# don't put duplicate lines in the history. See bash(1) for more options
+export HISTCONTROL=erasedups
+# ... and don't clobber the history when closing multiple shells
+shopt -s histappend
+# ... and keep multi line commands together
+shopt -s cmdhist
+
+#Real-time history export amongst bash terminal windows (stackoverflow)
+export HISTCONTROL=ignoredups:erasedups  # no duplicate entries
+export HISTSIZE=100000                   # big big history
+export HISTFILESIZE=100000               # big big history
+shopt -s histappend                      # append to history, don't overwrite it
+
+# Save and reload the history after each command finishes
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+
+#Expand-o-Matic:
+ex () {
+  if [ "$1" == '' ] ; then
+  echo "This is the Expand-o-Matic"
+  elif [ -f $1 ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1        ;;
+      *.tar.gz)    tar xzf $1     ;;
+      *.bz2)       bunzip2 $1       ;;
+      *.rar)       rar x $1     ;;
+      *.gz)        gunzip $1     ;;
+      *.tar)       tar xf $1        ;;
+      *.tbz2)      tar xjf $1      ;;
+      *.tgz)       tar xzf $1       ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1  ;;
+      *.7z)        7z x $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+
+
+#Bashrc
+#Functions to start graphical programs in the back
+function gedit
+{
+  command gedit "$@" &
+}
+function sublime
+{
+  command sublime "$@" &
+}
+function railss
+{
+command rvmsudo rails s -p 80
+}
+
+source ~/.local/bin/bashmarks.sh

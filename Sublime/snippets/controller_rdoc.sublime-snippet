@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+# ${1:Description}
+#${2:# * *Args*    :
+#   - +${4:arg1}+ -> ${5:Description}}${3:# * *Renders* :
+#   - +$6+ $7
+#}$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rdoc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
+

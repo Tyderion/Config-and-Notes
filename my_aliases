@@ -1,0 +1,4 @@
+alias mkdir="mkdir -p" #always create nested directories
+#alias cd="pushd" #go to dir and save in stack
+#alias bd="popd" #go to last working dir
+alias subl="sublime"
