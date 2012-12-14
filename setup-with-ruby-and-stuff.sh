@@ -30,8 +30,6 @@ TargetEnvironment=Unity
 sublime
 
 #make bash changes
-sudo cat my_inputrc_changes.txt >> /etc/inputrc
-
 cat inputrc_tweaks | sudo tee -a /etc/inputrc
 cat my_aliases >> ~/.bash_aliases
 cat bashrc_tweaks >> ~/.bashrc
