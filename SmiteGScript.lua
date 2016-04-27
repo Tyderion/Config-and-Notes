@@ -1,4 +1,4 @@
->LAUGH = 5
+LAUGH = 5
 TAUNT = 4
 JOKE = 6
 current = -1
